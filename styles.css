@@ -1,0 +1,93 @@
+@import url("https://cdn.jsdelivr.net/npm/normalize.css@8.0.1/normalize.css");
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background-color: #f2f2f2;
+  color: #222;
+}
+
+header {
+  background-color: #e60012;
+  color: white;
+  text-align: center;
+  padding: 25px;
+}
+
+header h1 {
+  margin: 0;
+}
+
+nav {
+  background-color: #222;
+  text-align: center;
+  padding: 15px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 15px;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+section {
+  max-width: 900px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: white;
+}
+
+input,
+select {
+  padding: 10px;
+  margin: 5px;
+  font-size: 16px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+}
+
+form input,
+form select,
+form button {
+  margin: 5px 0;
+}
+
+button {
+  padding: 10px 15px;
+  cursor: pointer;
+}
+
+.game-card {
+  border: 1px solid #ccc;
+  padding: 15px;
+  margin: 15px 0;
+  background-color: #fafafa;
+}
+
+.game-card h3 {
+  margin-top: 0;
+}
+
+.game-card p {
+  margin: 5px 0;
+}
+
+.game-card:hover {
+  border-color: #e60012;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #222;
+  color: white;
+}
