@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "name": "Super Mario Odyssey",
+    "platform": "Nintendo Switch",
+    "genre": "Platformer",
+    "status": "Completed",
+    "rating": "5/5",
+    "tags": "#mario #platformer"
+  },
+  {
+    "id": 2,
+    "name": "Fortnite",
+    "platform": "PC",
+    "genre": "Battle Royale",
+    "status": "Playing",
+    "rating": "5/5",
+    "tags": "#fortnite #battle-royale"
+  },
+  {
+    "id": 3,
+    "name": "Minecraft",
+    "platform": "PC",
+    "genre": "Sandbox",
+    "status": "Playing",
+    "rating": "5/5",
+    "tags": "#minecraft #survival"
+  },
+  {
+    "id": 4,
+    "name": "NBA 2K27",
+    "platform": "PlayStation 5",
+    "genre": "Sports",
+    "status": "Want to Play",
+    "rating": "Not Rated",
+    "tags": "#nba2k #basketball"
+  }
+]

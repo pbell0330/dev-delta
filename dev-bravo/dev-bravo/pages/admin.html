@@ -1,0 +1,87 @@
+
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GameVault - Admin Dashboard</title>
+    <link rel="stylesheet" href="../css/styles.css" />
+  </head>
+
+  <body>
+    <header>
+      <h1>🎮 GameVault</h1>
+      <p>Administrator Dashboard</p>
+    </header>
+
+    <nav>
+      <a href="../index.html">Home</a>
+      <a href="signin.html">Sign In</a>
+      <button id="adminLogout">Sign Out</button>
+    </nav>
+
+    <section>
+      <h2>Administrator Information</h2>
+      <p>Username: <span id="adminUsername"></span></p>
+      <p>Role: <span id="adminRole"></span></p>
+      <p>Login Time: <span id="loginTime"></span></p>
+      <p>Session Status: <span id="sessionStatus"></span></p>
+    </section>
+
+    <section>
+      <h2>Manage Game Backlog</h2>
+
+      <form id="adminGameForm">
+        <label for="gameName">Game Name:</label>
+        <input type="text" id="gameName" required />
+
+        <br /><br />
+
+        <label for="platform">Platform:</label>
+        <input type="text" id="platform" required />
+
+        <br /><br />
+
+        <label for="genre">Genre:</label>
+        <input type="text" id="genre" required />
+
+        <br /><br />
+
+        <label for="status">Status:</label>
+        <select id="status">
+          <option value="Want to Play">Want to Play</option>
+          <option value="Playing">Playing</option>
+          <option value="Completed">Completed</option>
+        </select>
+
+        <br /><br />
+
+        <button type="submit">Add Game</button>
+      </form>
+
+      <h3>Current Games</h3>
+      <div id="adminGames"></div>
+    </section>
+
+    <section>
+      <h2>Session Storage</h2>
+      <pre id="storageOutput"></pre>
+    </section>
+
+    <section>
+      <h2>Application State (appState)</h2>
+      <pre id="stateOutput"></pre>
+    </section>
+
+    <section>
+      <h2>Debug Information</h2>
+      <p id="debugOutput"></p>
+    </section>
+
+    <footer>
+      <p>GameVault - Game Backlog Tracker</p>
+    </footer>
+
+    <script src="../js/admin.js"></script>
+  </body>
+</html>

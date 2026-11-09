@@ -1,0 +1,43 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GameVault - Sign In</title>
+    <link rel="stylesheet" href="../css/styles.css" />
+  </head>
+
+  <body>
+    <header>
+      <h1>🎮 GameVault</h1>
+      <p>Sign In</p>
+    </header>
+
+    <nav>
+      <a href="../index.html">Home</a>
+      <a href="signin.html">Sign In</a>
+    </nav>
+
+    <section>
+      <h2>Sign In to GameVault</h2>
+
+      <form id="loginForm">
+        <label for="username">Username:</label>
+        <input type="text" id="username" required />
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" required />
+
+        <button type="submit">Sign In</button>
+
+        <p id="loginError"></p>
+      </form>
+    </section>
+
+    <footer>
+      <p>GameVault - Game Backlog Tracker</p>
+    </footer>
+
+    <script src="../js/auth.js"></script>
+  </body>
+</html>
